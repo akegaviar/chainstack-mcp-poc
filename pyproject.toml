@@ -1,0 +1,12 @@
+[project]
+name = "chainstack-mcp-poc"
+version = "0.1.0"
+description = "PoC Chainstack MCP server using FastMCP with GitHub auth and Chainstack node provisioning."
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastmcp>=2.12.0",
+  "httpx>=0.27.0",
+  "pydantic>=2.8.0"
+]
+
